@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color:white;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    
+}
+
+.first{
+    background-color: #006d58;
+    
+    
+}
+.quebra_pagina {
+    background-color: white;
+    width: 4000px;
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    max-width: 130px;
+    
+}
+
+a {
+    color: white;
+    
+}
+
+.conteudo, .titulo {
+    color: white;
+        display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.conteudo, .estacoes , a {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.linha {
+    border-radius: 25px;
+    background: #006d58; 
+    width: 25px;
+    height: 880px;
+    box-shadow: 4px 3px 3px rgb(0, 0, 0, 0.2), 4px 3px 3px 0 rgb(0, 0, 0, 0.19);
+    margin-left: 50px; 
+    display: block;
+    margin-top: -30px;
+
+    
+}
+
+.bolinha{
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border: 1px solid white;
+    background: white;
+    box-shadow: 0 4px 8px  rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
+    margin-left: 6px;
+    margin-top: 39px;
+
+ 
+}
+ul> li {
+    margin-top: 36px;
+    
+}
+
+
+ul{
+    list-style: none;
+} 
+
+
+.second {
+    display: flex;
+}
+
+span:first-child {
+    margin-top: 70px;
+}
+
+@media (min-width: 700px) {
+    body {
+        display: block;
+    }
+
+    .first {
+        width: 50vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    .quebra_pagina {
+        display: none;
+    }
+
+    .second {
+        width: 50vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 50px;
+    }
+}
