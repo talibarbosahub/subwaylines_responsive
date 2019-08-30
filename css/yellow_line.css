@@ -20,7 +20,7 @@ body {
 }
 
 .first{
-    background-color: #e5a310;
+    background-color: rgb(240, 210, 50);
     
     
 }
@@ -67,7 +67,7 @@ a {
 
 .linha {
     border-radius: 25px;
-    background: #e5a310; 
+    background: rgb(240, 210, 50); 
     width: 25px;
     height: 620px;
     box-shadow: 4px 3px 3px rgb(0, 0, 0, 0.2), 4px 3px 3px 0 rgb(0, 0, 0, 0.19);
