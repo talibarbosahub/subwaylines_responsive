@@ -110,3 +110,29 @@ span:first-child {
     margin-top: 70px;
 }
 
+@media (min-width: 700px) {
+    body {
+        display: block;
+    }
+
+    .first {
+        width: 50vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    .quebra_pagina {
+        display: none;
+    }
+
+    .second {
+        width: 50vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 50px;
+    }
+}
